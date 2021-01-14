@@ -185,3 +185,11 @@ git remote -v（查看远端仓库）
 git push github --all（将本地本仓库所有分支提交到github远端仓库）
 
 命令push后的github单词是和远端仓库建立联系时命名的，代表了远端仓库的地址）
+
+git fetch & pull详解（https://www.cnblogs.com/runnerjack/p/9342362.html）
+
+git fetch <远程主机名> //将远程主机的更新全部取回本地
+
+git fetch <远程主机名> <分支名> //将远程主机的特定分支更新到本地
+
+git merge FETCH_HEAD    //将拉取下来的最新内容合并到当前所在的分支中
